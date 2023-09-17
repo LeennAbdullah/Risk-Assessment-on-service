@@ -1,0 +1,22 @@
+				Leen's Methodology.
+it assigns for each asset weight from 1-30 based on the cost of ownership, cost on the
+reputation and the impact on the mission:
+		-if the asset cost less than 300$ per month then it is ranked between 1-4
+		-if the asset cost less more than 1000 and less than 5000 then ranked between
+		5-7, otherwise ranked between 8-10.
+
+then creates the threat inventory and rank it in scale from 1-5 based on the following metrics:
+	1-Finanial Loss.
+	2-Reputational Loss.
+	3-Cost to protect.
+	4-The loss of the Competitive advantage.
+	5-The frequency of occurence.
+
+The Vulnerability inventory will specify the assets that it affects based on 
+the threat that the existence of this vulnerability will cause. 
+for example HTTP insecure connection protocol might cause unauthorized access. 
+
+The likelihood is measured from 0.1  -  1.0
+and the risk is measured quantitivly from ((likelihood*asset weight)-((likelihood*asset weight)*available controls)+((likelihood*asset weight)*uncertaininty))
+Assumed that if there is a control if mitigates 20%
+the risk appetite is 15 and less
